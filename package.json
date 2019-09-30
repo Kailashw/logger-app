@@ -1,6 +1,6 @@
 {
   "name": "@kailashw/logger-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A sample package to log your messages in browser console or server console.",
   "repository": "https://github.com/Kailashw/logger-app",
   "main": "index.js",

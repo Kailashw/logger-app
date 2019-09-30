@@ -4,22 +4,27 @@ This library is used to log the messages to server/browser console. The library 
 
 To install the library in your application
 
+### Using npm
 ```
 npm i @kailashw/logger-app
+```
+### Using yarn
+```
+yarn add @kailashw/logger-app
 ```
 
 Sample usage in the code,
 
-### for ES5 and before
+### For ES5 and before
 
 ```
-const Log = require("@kailashw/logger-app/Log")
-Log.info({msg:'this is message', data:'this is data'})
+const logger = require("@kailashw/logger-app/Log")
+logger.info({msg:'this is message', data:'this is data'})
 ```
 
 ### ES6 onwards
 ```
-import Log from "@kailashw/logger-app"
-Log.info({msg:'this is message', data:'this is data'})
+import logger from "@kailashw/logger-app/Log";
+logger.info({msg:'this is message', data:'this is data'})
 ```
 
