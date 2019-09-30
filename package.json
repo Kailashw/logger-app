@@ -2,10 +2,13 @@
   "name": "@kailashw/logger-app",
   "version": "1.0.2",
   "description": "A sample package to log your messages in browser console or server console.",
-  "repository": "",
+  "repository": "https://github.com/Kailashw/logger-app",
   "main": "index.js",
   "keywords": [
-    "node, npm, logger, log"
+    "node",
+    "npm",
+    "logger",
+    "log"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
