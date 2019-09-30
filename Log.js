@@ -15,7 +15,7 @@ class Log {
     }
 
     trace({ msg = "", data = "" }) {
-        console.log(`"${chalk.orange(msg)}", "${data}" was posted on "${Date()}" with status ${chalk.orange('--')}`)
+        console.log(`"${chalk.red(msg)}", "${data}" was posted on "${Date()}" with status ${chalk.orange('--')}`)
     }
 
     debug({ msg = "", data = "" }) {
