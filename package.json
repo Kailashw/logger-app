@@ -1,6 +1,6 @@
 {
   "name": "@kailashw/logger-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A sample package to log your messages in browser console or server console.",
   "repository": "https://github.com/Kailashw/logger-app",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "log"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm version patch && npm publish"
   },
   "author": "Kailas Walldoddi",
   "license": "MIT",
