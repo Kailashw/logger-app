@@ -18,13 +18,13 @@ Sample usage in the code,
 ### For ES5 and before
 
 ```
-const logger = require("@kailashw/logger-app/Log")
+const logger = require("@kailashw/logger-app")
 logger.info({msg:'this is message', data:'this is data'})
 ```
 
 ### ES6 onwards
 ```
-import logger from "@kailashw/logger-app/Log";
+import logger from "@kailashw/logger-app";
 logger.info({msg:'this is message', data:'this is data'})
 ```
 
